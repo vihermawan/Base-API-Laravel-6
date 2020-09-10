@@ -1,0 +1,729 @@
+Waktu : 2019-04-29 11:58:41 am
+Dokumen : ../pdf/example.pdf
+Pesan Error : 
+INFO  Checking input and output PDF paths.
+INFO  Getting key alias
+INFO  Certificate sertifikat development expired already.
+INFO  Used key alias: null
+INFO  Loading private key
+ERROR Problem occured
+java.lang.NullPointerException
+	at sun.security.pkcs12.PKCS12KeyStore.engineGetKey(PKCS12KeyStore.java:304)
+	at java.security.KeyStore.getKey(KeyStore.java:1023)
+	at net.sf.jsignpdf.utils.KeyStoreUtils.getPkInfo(KeyStoreUtils.java:417)
+	at net.sf.jsignpdf.SignerLogic.signFile(SignerLogic.java:135)
+	at net.sf.jsignpdf.Signer.signFiles(Signer.java:242)
+	at net.sf.jsignpdf.Signer.main(Signer.java:137)
+INFO  Finished: Creating of signature failed.
+==================================================================================================================
+Waktu : 2020-04-30 02:33:42 pm
+Dokumen : F:\Tugas Akhir\API-FIX\API-EventIn\public\uploads/sertifikat/UGMTalks.docx
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-04-30 02:36:23 pm
+Dokumen : F:\Tugas Akhir\API-FIX\API-EventIn\public\uploads/sertifikat/UGMTalks.docx
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-04-30 03:03:51 pm
+Dokumen : F:\Tugas Akhir\API-FIX\API-EventIn\public\uploads/sertifikat/Vicky-1588083359.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-04-30 03:05:44 pm
+Dokumen : F:\Tugas Akhir\API-FIX\API-EventIn\public\uploads/sertifikat/Vicky-1588083359.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-01 12:14:22 am
+Dokumen : F:\Tugas Akhir\API-FIX\API-EventIn\public\uploads/sertifikat/Vicky-1588083359.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-01 01:13:22 am
+Dokumen : F:\Tugas Akhir\API-FIX\API-EventIn\public\/uploads/sertifikat/UGMTalks/Icin-1588083341.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-01 01:14:00 am
+Dokumen : F:\Tugas Akhir\API-FIX\API-EventIn\public\/uploads/sertifikat/UGMTalks/Icin-1588083341.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-01 01:20:01 am
+Dokumen : F:\Tugas Akhir\API-FIX\API-EventIn\public\/uploads/sertifikat/UGMTalks/Icin-1588083341.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-01 02:07:40 am
+Dokumen : F:\Tugas Akhir\API-FIX\API-EventIn\public\/uploads/sertifikat/Siraman Qolbu/Icin-1588172722.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-01 11:50:23 am
+Dokumen : F:\Tugas Akhir\API-FIX\API-EventIn\public\/uploads/sertifikat/UGMTalks/Icin-1588083341.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-06 05:52:23 am
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Siraman Qolbu/Zainul-1588718569.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-06 05:53:41 am
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Siraman Qolbu/Icin-1588718563.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-06 06:05:08 am
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Ganesha Operation/Vicky-1588719794.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-06 06:15:28 am
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/UGMTalks/Icin-1588083341.pdf
+Pesan Error : 
+INFO  Checking input and output PDF paths.
+INFO  Getting key alias
+INFO  Used key alias: panut mulyono
+INFO  Loading private key
+INFO  Getting certificate chain
+INFO  Opening input PDF file: C:\xampp\htdocs\API-EventIn\public\uploads\sertifikat\UGMTalks\Icin-1588083341.pdf
+INFO  Creating output PDF file: C:/xampp/htdocs/API-EventIn/public/uploads/sertifikat_sign/Icin-1588083341.pdf
+ERROR Problem occured
+java.io.FileNotFoundException: C:\xampp\htdocs\API-EventIn\public\uploads\sertifikat_sign\Icin-1588083341.pdf (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:292)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:124)
+	at net.sf.jsignpdf.SignerLogic.signFile(SignerLogic.java:157)
+	at net.sf.jsignpdf.Signer.signFiles(Signer.java:242)
+	at net.sf.jsignpdf.Signer.main(Signer.java:137)
+INFO  Finished: Creating of signature failed.
+==================================================================================================================
+Waktu : 2020-05-06 06:15:35 am
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Siraman Qolbu/Icin-1588718563.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-06 06:18:14 am
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Siraman Qolbu/Icin-1588718563.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-06 06:18:19 am
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Ganesha Operation/Vicky-1588719794.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-11 09:53:57 am
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/BukaTalks/Rena Nora-1589165385.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-11 09:54:09 am
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Ganesha Operation/Vicky-1589165533.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-11 09:54:11 am
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Ganesha Operation/Zainul-1589165538.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-11 09:54:13 am
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Ganesha Operation/Vicky-1589165542.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-11 09:56:36 am
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Ganesha Operation/Zainul-1589165538.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-11 10:00:34 am
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Ganesha Operation/Vicky-1589165542.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-11 12:36:04 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Ganesha Operation/Vicky-1589175341.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-11 12:38:37 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Ganesha Operation/Vicky-1589175341.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-11 12:41:30 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Ganesha Operation/Vicky-1589175341.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-12 12:30:08 am
+Dokumen : F:\Tugas Akhir\API-FIX\ttdbisa\API-EventIn\public\/uploads/sertifikat/UGMTalks/Zainul-1589165313.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-14 10:23:19 am
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Siraman Qolbu/Icin-1589426458.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-14 10:27:44 am
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Siraman Qolbu/Icin-1589426458.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-14 10:32:53 am
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Siraman Qolbu/Icin-1589426458.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-14 02:30:25 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Siraman Qolbu/Icin-1589441249.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-14 02:30:36 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Ganesha Operation/Vicky-1589441283.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-15 09:32:37 am
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Ganesha Operation/Zainul-1589509884.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-15 09:34:04 am
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Ganesha Operation/Vicky-1589509878.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-15 09:00:22 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Siraman Qolbu/Zainul-1589551186.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-16 03:25:17 am
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Ganesha Operation/Zainul-1589574175.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-16 03:25:44 am
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Siraman Qolbu/Icin-1589574280.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-16 09:29:01 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Siraman Qolbu/Zainul-1589639234.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-16 09:30:07 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Siraman Qolbu/Vicky-1589639239.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-16 10:23:32 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Siraman Qolbu/Vicky-1589642591.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-16 10:23:44 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Siraman Qolbu/Zainul-1589642586.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-16 10:23:46 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Siraman Qolbu/Zainul-1589642586.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-16 10:23:51 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Siraman Qolbu/Icin-1589642581.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-16 10:23:52 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Siraman Qolbu/Icin-1589642581.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-16 10:23:53 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Siraman Qolbu/Icin-1589642581.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-16 10:23:54 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Siraman Qolbu/Icin-1589642581.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-16 10:24:45 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Ganesha Operation/Vicky-1589642650.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-16 10:25:47 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Ganesha Operation/Zainul-1589642656.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-16 10:25:53 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Ganesha Operation/Vicky-1589642660.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-16 10:27:02 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/BukaTalks/Rena Nora-1589642789.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-16 10:27:03 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/BukaTalks/Rena Nora-1589642789.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-16 10:27:04 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/BukaTalks/Rena Nora-1589642789.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-16 10:27:06 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/BukaTalks/Rena Nora-1589642789.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-16 11:35:19 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Talkshow EduTalk/Rena Nora-1589646854.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-16 11:35:33 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Talkshow EduTalk/Icin-1589646842.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-16 11:35:44 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Talkshow EduTalk/Vicky-1589646848.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-16 11:35:46 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Talkshow EduTalk/Rena Nora-1589646860.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-16 11:35:48 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Talkshow EduTalk/Icin-1589646865.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-16 11:35:49 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Talkshow EduTalk/Zainul-1589646870.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-16 11:40:44 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Ruang Guru Talks/Icin-1589647205.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-16 11:40:46 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Ruang Guru Talks/Rena Nora-1589647209.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-17 11:02:11 am
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/Konsultasi Google Adwords/Icin-1589688080.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-17 11:06:49 am
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/IALF English Club/Zainul-1589688370.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-18 02:54:23 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/UGMTalks/Deni Sumargo-1589781288.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-21 09:10:13 am
+Dokumen : F:\Tugas Akhir\API-FIX\API-EventIn\public\/uploads/sertifikat/UGMTalks/Zainul-1589781329.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-21 09:10:27 am
+Dokumen : F:\Tugas Akhir\API-FIX\API-EventIn\public\/uploads/sertifikat/UGMTalks/Vicky-1589781275.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-21 09:10:29 am
+Dokumen : F:\Tugas Akhir\API-FIX\API-EventIn\public\/uploads/sertifikat/UGMTalks/Rena Nora-1589781281.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-21 09:10:30 am
+Dokumen : F:\Tugas Akhir\API-FIX\API-EventIn\public\/uploads/sertifikat/UGMTalks/Deni Sumargo-1589781288.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-21 09:10:32 am
+Dokumen : F:\Tugas Akhir\API-FIX\API-EventIn\public\/uploads/sertifikat/UGMTalks/Tania Dwi-1589781294.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-21 09:10:34 am
+Dokumen : F:\Tugas Akhir\API-FIX\API-EventIn\public\/uploads/sertifikat/UGMTalks/Putri Kia-1589781301.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-21 09:10:36 am
+Dokumen : F:\Tugas Akhir\API-FIX\API-EventIn\public\/uploads/sertifikat/UGMTalks/Dendi Yugo-1589781306.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-21 09:10:38 am
+Dokumen : F:\Tugas Akhir\API-FIX\API-EventIn\public\/uploads/sertifikat/UGMTalks/Masdan-1589781312.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-21 09:10:39 am
+Dokumen : F:\Tugas Akhir\API-FIX\API-EventIn\public\/uploads/sertifikat/UGMTalks/Ramzi-1589781318.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-22 12:57:44 am
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/UGMTalks/Deni Sumargo-1589781288.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-22 12:57:46 am
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/UGMTalks/Tania Dwi-1589781294.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-22 12:57:47 am
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/UGMTalks/Putri Kia-1589781301.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-22 12:57:50 am
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/UGMTalks/Dendi Yugo-1589781306.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-22 03:53:13 am
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/UGMTalks/Rena Nora-1589781281.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-22 03:53:19 am
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/UGMTalks/Deni Sumargo-1589781288.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-22 03:53:24 am
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/UGMTalks/Tania Dwi-1589781294.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-22 03:53:29 am
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/UGMTalks/Putri Kia-1589781301.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-22 03:53:34 am
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/UGMTalks/Dendi Yugo-1589781306.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-22 08:12:32 am
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/BukaTalks/Rena Nora-1590109820.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-22 08:12:36 am
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/BukaTalks/Deni Sumargo-1590109824.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-22 08:12:40 am
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/BukaTalks/Tania Dwi-1590109829.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-22 08:12:50 am
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/BukaTalks/Putri Kia-1590109833.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-22 08:12:55 am
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/BukaTalks/Dendi Yugo-1590109838.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-28 02:41:02 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/UGMTalks/Rena Nora-1589781281.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-28 02:41:17 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/UGMTalks/Deni Sumargo-1589781288.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-28 02:42:02 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/UGMTalks/Tania Dwi-1589781294.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-28 02:42:25 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/UGMTalks/Putri Kia-1589781301.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-28 02:42:33 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/UGMTalks/Dendi Yugo-1589781306.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-06-05 02:09:20 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/UGMTalks/Vicky-1589781275.pdf
+Pesan Error : 
+INFO  Checking input and output PDF paths.
+INFO  Getting key alias
+INFO  Used key alias: panut mulyono
+INFO  Loading private key
+INFO  Getting certificate chain
+INFO  Opening input PDF file: C:\xampp\htdocs\API-EventIn\public\uploads\sertifikat\UGMTalks\Vicky-1589781275.pdf
+INFO  Creating output PDF file: C:/xampp/htdocs/API-EventIn/public/uploads/sertifikat_sign/Vicky-1589781275.pdf
+ERROR Problem occured
+java.io.FileNotFoundException: C:\xampp\htdocs\API-EventIn\public\uploads\sertifikat_sign\Vicky-1589781275.pdf (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:292)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:124)
+	at net.sf.jsignpdf.SignerLogic.signFile(SignerLogic.java:157)
+	at net.sf.jsignpdf.Signer.signFiles(Signer.java:242)
+	at net.sf.jsignpdf.Signer.main(Signer.java:137)
+INFO  Finished: Creating of signature failed.
+==================================================================================================================
+Waktu : 2020-06-05 02:09:45 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/UGMTalks/Zainul-1589781329.pdf
+Pesan Error : 
+INFO  Checking input and output PDF paths.
+INFO  Getting key alias
+INFO  Used key alias: panut mulyono
+INFO  Loading private key
+INFO  Getting certificate chain
+INFO  Opening input PDF file: C:\xampp\htdocs\API-EventIn\public\uploads\sertifikat\UGMTalks\Zainul-1589781329.pdf
+INFO  Creating output PDF file: C:/xampp/htdocs/API-EventIn/public/uploads/sertifikat_sign/Zainul-1589781329.pdf
+ERROR Problem occured
+java.io.FileNotFoundException: C:\xampp\htdocs\API-EventIn\public\uploads\sertifikat_sign\Zainul-1589781329.pdf (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:292)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:124)
+	at net.sf.jsignpdf.SignerLogic.signFile(SignerLogic.java:157)
+	at net.sf.jsignpdf.Signer.signFiles(Signer.java:242)
+	at net.sf.jsignpdf.Signer.main(Signer.java:137)
+INFO  Finished: Creating of signature failed.
+==================================================================================================================
+Waktu : 2020-06-05 02:10:55 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/UGMTalks/Rena Nora-1589781281.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-06-05 02:11:43 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/UGMTalks/Rena Nora-1589781281.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-06-05 02:11:50 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/UGMTalks/Zainul-1589781329.pdf
+Pesan Error : 
+INFO  Checking input and output PDF paths.
+INFO  Getting key alias
+INFO  Used key alias: panut mulyono
+INFO  Loading private key
+INFO  Getting certificate chain
+INFO  Opening input PDF file: C:\xampp\htdocs\API-EventIn\public\uploads\sertifikat\UGMTalks\Zainul-1589781329.pdf
+INFO  Creating output PDF file: C:/xampp/htdocs/API-EventIn/public/uploads/sertifikat_sign/Zainul-1589781329.pdf
+ERROR Problem occured
+java.io.FileNotFoundException: C:\xampp\htdocs\API-EventIn\public\uploads\sertifikat_sign\Zainul-1589781329.pdf (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:292)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:124)
+	at net.sf.jsignpdf.SignerLogic.signFile(SignerLogic.java:157)
+	at net.sf.jsignpdf.Signer.signFiles(Signer.java:242)
+	at net.sf.jsignpdf.Signer.main(Signer.java:137)
+INFO  Finished: Creating of signature failed.
+==================================================================================================================
+Waktu : 2020-06-05 02:13:16 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/UGMTalks/Zainul-1589781329.pdf
+Pesan Error : 
+INFO  Checking input and output PDF paths.
+INFO  Getting key alias
+INFO  Used key alias: panut mulyono
+INFO  Loading private key
+INFO  Getting certificate chain
+INFO  Opening input PDF file: C:\xampp\htdocs\API-EventIn\public\uploads\sertifikat\UGMTalks\Zainul-1589781329.pdf
+INFO  Creating output PDF file: C:/xampp/htdocs/API-EventIn/public/uploads/sertifikat_sign/Zainul-1589781329.pdf
+ERROR Problem occured
+java.io.FileNotFoundException: C:\xampp\htdocs\API-EventIn\public\uploads\sertifikat_sign\Zainul-1589781329.pdf (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:292)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:124)
+	at net.sf.jsignpdf.SignerLogic.signFile(SignerLogic.java:157)
+	at net.sf.jsignpdf.Signer.signFiles(Signer.java:242)
+	at net.sf.jsignpdf.Signer.main(Signer.java:137)
+INFO  Finished: Creating of signature failed.
+==================================================================================================================
+Waktu : 2020-06-05 02:13:22 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/UGMTalks/Zainul-1589781329.pdf
+Pesan Error : 
+INFO  Checking input and output PDF paths.
+INFO  Getting key alias
+INFO  Used key alias: panut mulyono
+INFO  Loading private key
+INFO  Getting certificate chain
+INFO  Opening input PDF file: C:\xampp\htdocs\API-EventIn\public\uploads\sertifikat\UGMTalks\Zainul-1589781329.pdf
+INFO  Creating output PDF file: C:/xampp/htdocs/API-EventIn/public/uploads/sertifikat_sign/Zainul-1589781329.pdf
+ERROR Problem occured
+java.io.FileNotFoundException: C:\xampp\htdocs\API-EventIn\public\uploads\sertifikat_sign\Zainul-1589781329.pdf (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:292)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:124)
+	at net.sf.jsignpdf.SignerLogic.signFile(SignerLogic.java:157)
+	at net.sf.jsignpdf.Signer.signFiles(Signer.java:242)
+	at net.sf.jsignpdf.Signer.main(Signer.java:137)
+INFO  Finished: Creating of signature failed.
+==================================================================================================================
+Waktu : 2020-06-05 02:14:59 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/UGMTalks/Zainul-1589781329.pdf
+Pesan Error : 
+INFO  Checking input and output PDF paths.
+INFO  Getting key alias
+INFO  Used key alias: panut mulyono
+INFO  Loading private key
+INFO  Getting certificate chain
+INFO  Opening input PDF file: C:\xampp\htdocs\API-EventIn\public\uploads\sertifikat\UGMTalks\Zainul-1589781329.pdf
+INFO  Creating output PDF file: C:/xampp/htdocs/API-EventIn/public/uploads/sertifikat_sign/Zainul-1589781329.pdf
+ERROR Problem occured
+java.io.FileNotFoundException: C:\xampp\htdocs\API-EventIn\public\uploads\sertifikat_sign\Zainul-1589781329.pdf (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:292)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:124)
+	at net.sf.jsignpdf.SignerLogic.signFile(SignerLogic.java:157)
+	at net.sf.jsignpdf.Signer.signFiles(Signer.java:242)
+	at net.sf.jsignpdf.Signer.main(Signer.java:137)
+INFO  Finished: Creating of signature failed.
+==================================================================================================================
+Waktu : 2020-06-05 02:18:13 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/UGMTalks/Vicky-1589781275.pdf
+Pesan Error : 
+INFO  Checking input and output PDF paths.
+INFO  Getting key alias
+INFO  Used key alias: panut mulyono
+INFO  Loading private key
+INFO  Getting certificate chain
+INFO  Opening input PDF file: C:\xampp\htdocs\API-EventIn\public\uploads\sertifikat\UGMTalks\Vicky-1589781275.pdf
+INFO  Creating output PDF file: C:/xampp/htdocs/API-EventIn/public/uploads/sertifikat_sign/Vicky-1589781275.pdf
+ERROR Problem occured
+java.io.FileNotFoundException: C:\xampp\htdocs\API-EventIn\public\uploads\sertifikat_sign\Vicky-1589781275.pdf (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:292)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:124)
+	at net.sf.jsignpdf.SignerLogic.signFile(SignerLogic.java:157)
+	at net.sf.jsignpdf.Signer.signFiles(Signer.java:242)
+	at net.sf.jsignpdf.Signer.main(Signer.java:137)
+INFO  Finished: Creating of signature failed.
+==================================================================================================================
+Waktu : 2020-06-05 02:19:18 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/UGMTalks/Ramzi-1589781318.pdf
+Pesan Error : 
+INFO  Checking input and output PDF paths.
+INFO  Getting key alias
+INFO  Used key alias: panut mulyono
+INFO  Loading private key
+INFO  Getting certificate chain
+INFO  Opening input PDF file: C:\xampp\htdocs\API-EventIn\public\uploads\sertifikat\UGMTalks\Ramzi-1589781318.pdf
+INFO  Creating output PDF file: C:/xampp/htdocs/API-EventIn/public/uploads/sertifikat_sign/Ramzi-1589781318.pdf
+ERROR Problem occured
+java.io.FileNotFoundException: C:\xampp\htdocs\API-EventIn\public\uploads\sertifikat_sign\Ramzi-1589781318.pdf (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:292)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:124)
+	at net.sf.jsignpdf.SignerLogic.signFile(SignerLogic.java:157)
+	at net.sf.jsignpdf.Signer.signFiles(Signer.java:242)
+	at net.sf.jsignpdf.Signer.main(Signer.java:137)
+INFO  Finished: Creating of signature failed.
+==================================================================================================================
+Waktu : 2020-06-05 02:20:01 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/UGMTalks/Ramzi-1589781318.pdf
+Pesan Error : 
+INFO  Checking input and output PDF paths.
+INFO  Getting key alias
+INFO  Used key alias: panut mulyono
+INFO  Loading private key
+INFO  Getting certificate chain
+INFO  Opening input PDF file: C:\xampp\htdocs\API-EventIn\public\uploads\sertifikat\UGMTalks\Ramzi-1589781318.pdf
+INFO  Creating output PDF file: C:/xampp/htdocs/API-EventIn/public/uploads/sertifikat_sign/Ramzi-1589781318.pdf
+ERROR Problem occured
+java.io.FileNotFoundException: C:\xampp\htdocs\API-EventIn\public\uploads\sertifikat_sign\Ramzi-1589781318.pdf (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:292)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:124)
+	at net.sf.jsignpdf.SignerLogic.signFile(SignerLogic.java:157)
+	at net.sf.jsignpdf.Signer.signFiles(Signer.java:242)
+	at net.sf.jsignpdf.Signer.main(Signer.java:137)
+INFO  Finished: Creating of signature failed.
+==================================================================================================================
+Waktu : 2020-06-05 02:20:15 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/UGMTalks/Vicky-1589781275.pdf
+Pesan Error : 
+INFO  Checking input and output PDF paths.
+INFO  Getting key alias
+INFO  Used key alias: panut mulyono
+INFO  Loading private key
+INFO  Getting certificate chain
+INFO  Opening input PDF file: C:\xampp\htdocs\API-EventIn\public\uploads\sertifikat\UGMTalks\Vicky-1589781275.pdf
+INFO  Creating output PDF file: C:/xampp/htdocs/API-EventIn/public/uploads/sertifikat_sign/Vicky-1589781275.pdf
+ERROR Problem occured
+java.io.FileNotFoundException: C:\xampp\htdocs\API-EventIn\public\uploads\sertifikat_sign\Vicky-1589781275.pdf (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:292)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:124)
+	at net.sf.jsignpdf.SignerLogic.signFile(SignerLogic.java:157)
+	at net.sf.jsignpdf.Signer.signFiles(Signer.java:242)
+	at net.sf.jsignpdf.Signer.main(Signer.java:137)
+INFO  Finished: Creating of signature failed.
+==================================================================================================================
+Waktu : 2020-06-05 02:20:35 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/UGMTalks/Masdan-1589781312.pdf
+Pesan Error : 
+INFO  Checking input and output PDF paths.
+INFO  Getting key alias
+INFO  Used key alias: panut mulyono
+INFO  Loading private key
+INFO  Getting certificate chain
+INFO  Opening input PDF file: C:\xampp\htdocs\API-EventIn\public\uploads\sertifikat\UGMTalks\Masdan-1589781312.pdf
+INFO  Creating output PDF file: C:/xampp/htdocs/API-EventIn/public/uploads/sertifikat_sign/Masdan-1589781312.pdf
+ERROR Problem occured
+java.io.FileNotFoundException: C:\xampp\htdocs\API-EventIn\public\uploads\sertifikat_sign\Masdan-1589781312.pdf (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:292)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:124)
+	at net.sf.jsignpdf.SignerLogic.signFile(SignerLogic.java:157)
+	at net.sf.jsignpdf.Signer.signFiles(Signer.java:242)
+	at net.sf.jsignpdf.Signer.main(Signer.java:137)
+INFO  Finished: Creating of signature failed.
+==================================================================================================================
+Waktu : 2020-06-05 02:30:03 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/UGMTalks/Zainul-1589781329.pdf
+Pesan Error : 
+INFO  Checking input and output PDF paths.
+INFO  Getting key alias
+INFO  Used key alias: panut mulyono
+INFO  Loading private key
+INFO  Getting certificate chain
+INFO  Opening input PDF file: C:\xampp\htdocs\API-EventIn\public\uploads\sertifikat\UGMTalks\Zainul-1589781329.pdf
+INFO  Creating output PDF file: C:/xampp/htdocs/API-EventIn/public/uploads/sertifikat_sign/Zainul-1589781329.pdf
+ERROR Problem occured
+java.io.FileNotFoundException: C:\xampp\htdocs\API-EventIn\public\uploads\sertifikat_sign\Zainul-1589781329.pdf (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:292)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:124)
+	at net.sf.jsignpdf.SignerLogic.signFile(SignerLogic.java:157)
+	at net.sf.jsignpdf.Signer.signFiles(Signer.java:242)
+	at net.sf.jsignpdf.Signer.main(Signer.java:137)
+INFO  Finished: Creating of signature failed.
+==================================================================================================================
+Waktu : 2020-06-05 02:30:21 pm
+Dokumen : C:\xampp\htdocs\API-EventIn\public\/uploads/sertifikat/UGMTalks/Ramzi-1589781318.pdf
+Pesan Error : 
+INFO  Checking input and output PDF paths.
+INFO  Getting key alias
+INFO  Used key alias: panut mulyono
+INFO  Loading private key
+INFO  Getting certificate chain
+INFO  Opening input PDF file: C:\xampp\htdocs\API-EventIn\public\uploads\sertifikat\UGMTalks\Ramzi-1589781318.pdf
+INFO  Creating output PDF file: C:/xampp/htdocs/API-EventIn/public/uploads/sertifikat_sign/Ramzi-1589781318.pdf
+ERROR Problem occured
+java.io.FileNotFoundException: C:\xampp\htdocs\API-EventIn\public\uploads\sertifikat_sign\Ramzi-1589781318.pdf (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:292)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:124)
+	at net.sf.jsignpdf.SignerLogic.signFile(SignerLogic.java:157)
+	at net.sf.jsignpdf.Signer.signFiles(Signer.java:242)
+	at net.sf.jsignpdf.Signer.main(Signer.java:137)
+INFO  Finished: Creating of signature failed.
+==================================================================================================================
+=======
+Waktu : 2020-05-29 01:06:28 am
+Dokumen : F:\Tugas Akhir\API-FIX\API-EventIn\public\/uploads/sertifikat/UGMTalks/Zainul-1589781329.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-29 01:09:53 am
+Dokumen : F:\Tugas Akhir\API-FIX\API-EventIn\public\/uploads/sertifikat/UGMTalks/Vicky-1589781275.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-29 01:09:55 am
+Dokumen : F:\Tugas Akhir\API-FIX\API-EventIn\public\/uploads/sertifikat/UGMTalks/Rena Nora-1589781281.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-29 01:09:56 am
+Dokumen : F:\Tugas Akhir\API-FIX\API-EventIn\public\/uploads/sertifikat/UGMTalks/Deni Sumargo-1589781288.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-29 01:09:58 am
+Dokumen : F:\Tugas Akhir\API-FIX\API-EventIn\public\/uploads/sertifikat/UGMTalks/Tania Dwi-1589781294.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-29 01:09:59 am
+Dokumen : F:\Tugas Akhir\API-FIX\API-EventIn\public\/uploads/sertifikat/UGMTalks/Putri Kia-1589781301.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-29 01:10:00 am
+Dokumen : F:\Tugas Akhir\API-FIX\API-EventIn\public\/uploads/sertifikat/UGMTalks/Dendi Yugo-1589781306.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-29 01:10:02 am
+Dokumen : F:\Tugas Akhir\API-FIX\API-EventIn\public\/uploads/sertifikat/UGMTalks/Masdan-1589781312.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-05-29 01:10:03 am
+Dokumen : F:\Tugas Akhir\API-FIX\API-EventIn\public\/uploads/sertifikat/UGMTalks/Ramzi-1589781318.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-06-05 05:02:26 pm
+Dokumen : F:\Tugas Akhir\API-FIX\API-EventIn\public\/uploads/sertifikat/UGMTalks/Zainul-1589781329.pdf
+Pesan Error : 
+==================================================================================================================
+Waktu : 2020-06-09 02:55:18 am
+Dokumen : F:\Tugas Akhir\API-FIX\API-EventIn\public\/uploads/sertifikat/UGMTalks/Zainul-1589781329.pdf
+Pesan Error : 
+==================================================================================================================
